@@ -97,3 +97,10 @@ gcloud compute forwarding-rules create http-content-rule \
         --target-http-proxy http-lb-proxy \
         --ports 80
 gcloud compute forwarding-rules list
+
+
+Now go to instance named with Nucleus-Jumphost,
+then click on name of the instance,
+then click on edit,
+then select HTTP and HTTPS option after scrolling little bit.
+then save it.
